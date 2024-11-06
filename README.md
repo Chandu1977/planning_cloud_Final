@@ -10,7 +10,6 @@ This is a React-based admin dashboard application, leveraging Material-UI compon
 - [Setup Instructions](#setup-instructions)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 
 ## Overview
