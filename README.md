@@ -46,40 +46,30 @@ Follow these steps to set up the project locally:
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/Chandu1977/planning_cloud_Final.git
-# Planning Cloud - Final Version
+2. **Navigate into the project directory**:
+   ```bash
+   cd planning_cloud_Final
+3. **Install the dependencies**:
+   ```bash
+   npm install
+4. **Start the backend server**:
+   ```bash
+   cd backend
+   npm start
+5. **Start the frontend development server**:
+   ```bash
+   cd ..
+   npm start
 
-## Overview
+- **The app will be available at http://localhost:3000.**
 
-Planning Cloud is a demand forecasting dashboard application built using **React** and **Material-UI**. It provides business insights such as **Total Inventory Cost**, **Anticipated Surplus Stock**, and more. The project is designed with a responsive UI that offers a seamless user experience, including features like dark and light mode switching. The backend services are built using **Node.js** and handle the data flow to provide the required metrics and reports.
+## Usage
+- **Dashboard**: Provides visual representations of key business metrics.
+- **Theme Toggle**: Use the theme switch button to switch between light and dark themes.
+- **Data Management**: Use the tables and forms for managing business data.
 
-## Features
+## Contributing
+Contributions are welcome! Please fork this repository, make your changes, and submit a pull request for review.
 
-- **Responsive Admin Dashboard**
-  - Built with React and Material-UI.
-  - Supports light and dark themes.
-- **Key Metrics Display**
-  - Visualize key business metrics such as inventory cost, surplus, stock turnover, etc.
-- **Data Grid Integration**
-  - Interactive tables for managing data inputs and outputs.
-- **Backend Integration**
-  - Node.js-based server that handles data processing and API requests.
-
-## Project Structure
-
-planning_cloud_Final/ ├── backend/ # Node.js server-side code and APIs ├── public/ # Static assets (images, index.html, etc.) ├── src/ # React components and main codebase │ ├── components/ # UI components (cards, charts, data tables, etc.) │ ├── pages/ # Main pages (dashboard, analytics, etc.) │ ├── styles/ # SCSS and CSS files for styling │ ├── hooks/ # Custom React hooks │ ├── utils/ # Utility functions used across the project │ └── App.js # Main application entry ├── package.json # Project metadata and dependencies └── README.md # Project documentation
-
-
-## Setup Instructions
-
-To run the project locally, follow these steps:
-
-### Prerequisites
-- **Node.js** (v14 or higher)
-- **npm** (v6 or higher)
-
-### Installation
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/Chandu1977/planning_cloud_Final.git
-2. Navigate into the project directory:
-    cd planning_cloud_Final
+## Contact
+For any inquiries, please contact Chandu via GitHub issues or email at chandu74162@gmail.com.
